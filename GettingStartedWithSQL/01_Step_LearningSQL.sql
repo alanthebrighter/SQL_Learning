@@ -26,7 +26,7 @@ create table favorite_food(
 select * from information_schema.table_constraints
 where constraint_schema = "first_test";
 
-insert into person value('4', 'Leo', 'Theking', 'M', '2000-12-09', 'StreetHax', 'Sao Paulo', 'SP', 'Brasil', '00000000');
+insert into person value('4', 'Lio', 'Theking', 'M', '2020-06-03', 'StreetHax', 'Son Pablo', 'SP', 'India', '00000000');
 
 delete from person where id_person=3;
 
